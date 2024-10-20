@@ -18,8 +18,7 @@
     "pnpm": "^9"
   },
   "workspaces": [
-    "./packages/*",
-    "./proprietary/*"
+    "./packages/*"
   ],
   "devDependencies": {
     "@changesets/cli": "2.27.8",
