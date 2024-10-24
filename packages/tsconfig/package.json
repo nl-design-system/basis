@@ -1,0 +1,29 @@
+{
+  "name": "@nl-design-system-unstable/tsconfig",
+  "version": "0.0.0",
+  "author": "Community for NL Design System",
+  "description": "tsconfig files for the NL Design System architecture",
+  "license": "EUPL-1.2",
+  "keywords": [
+    "nl-design-system",
+    "typescript",
+    "tsconfig"
+  ],
+  "files": [
+    "./src/tsconfig*.json"
+  ],
+  "exports": {
+    ".": "./src/tsconfig.json"
+  },
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/basis.git",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6"
+  }
+}
