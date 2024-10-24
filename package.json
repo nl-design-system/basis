@@ -1,6 +1,5 @@
 {
-  "name": "@nl-design-system-unstable/basis",
-  "version": "1.0.0-alpha.0",
+  "name": "@nl-design-system/basis",
   "author": "Community for NL Design System",
   "description": "Design system based on the NL Design System architecture",
   "license": "EUPL-1.2",

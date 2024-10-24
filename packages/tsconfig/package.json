@@ -1,0 +1,18 @@
+{
+  "name": "@nl-design-system/tsconfig-base",
+  "version": "0.0.0",
+  "license": "EUPL-1.2",
+  "description": "tsconfig base for NL Design System repostories",
+  "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/tsconfig#readme",
+  "keywords": [
+    "nl-design-system"
+  ],
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/basis",
+    "directory": "packages/tsconfig-base"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
