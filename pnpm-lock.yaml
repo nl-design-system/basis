@@ -79,6 +79,8 @@ importers:
         specifier: 5.6.2
         version: 5.6.2
 
+  packages/tsconfig: {}
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':
