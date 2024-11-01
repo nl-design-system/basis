@@ -1,0 +1,38 @@
+{
+  "name": "@nl-design-system/eslint-config",
+  "version": "0.0.0",
+  "description": "An ESLint configuration for NL Design System TypeScript projects",
+  "license": "EUPL-1.2",
+  "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/eslint-config#readme",
+  "type": "module",
+  "main": "./eslint.config.mjs",
+  "exports": {
+    ".": "./eslint.config.mjs"
+  },
+  "files": [
+    "./eslint.config.mjs"
+  ],
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/basis",
+    "directory": "packages/eslint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "9.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  },
+  "dependencies": {
+    "@eslint/js": "9.13.0",
+    "@eslint/json": "0.6.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-perfectionist": "3.9.1",
+    "eslint-plugin-react": "7.36.1",
+    "globals": "15.11.0",
+    "typescript-eslint": "8.12.2"
+  }
+}
