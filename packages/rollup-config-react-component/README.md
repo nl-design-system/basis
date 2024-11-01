@@ -4,12 +4,22 @@ A shareable [Rollup](https://rollupjs.org) configuration for React components.
 
 ## Installation
 
+Using npm:
+
 ```shell
-$ npm install --save-dev @nl-design-system/rollup-config-react-component rollup
-# or
-$ yarn add --save-dev @nl-design-system/rollup-config-react-component rollup
-# or
-$ pnpm add --save-dev @nl-design-system/rollup-config-react-component rollup
+npm install --save-dev @nl-design-system/rollup-config-react-component rollup
+```
+
+Using yarn:
+
+```shell
+yarn add --save-dev @nl-design-system/rollup-config-react-component rollup
+```
+
+Using pnpm:
+
+```shell
+pnpm add --save-dev @nl-design-system/rollup-config-react-component rollup
 ```
 
 ## Usage
