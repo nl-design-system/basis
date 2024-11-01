@@ -1,5 +1,5 @@
 ---
-'@nl-design-system/tsconfig-base': major
+'@nl-design-system/tsconfig': major
 ---
 
 Create a base tsconfig for NL Design System projects with TypeScript
