@@ -15,6 +15,9 @@ importers:
       '@changesets/cli':
         specifier: 2.27.8
         version: 2.27.8
+      '@nl-design-system/tsconfig':
+        specifier: workspace:*
+        version: link:packages/tsconfig
       '@types/node':
         specifier: 20.14.13
         version: 20.14.13
