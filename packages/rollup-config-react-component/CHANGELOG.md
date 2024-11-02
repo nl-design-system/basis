@@ -1,5 +1,11 @@
 # @nl-design-system/rollup-config-react-component
 
+## 1.0.2
+
+### Patch Changes
+
+- c9903d5: Relax rollup peerDependency requirement
+
 ## 1.0.1
 
 ### Patch Changes
