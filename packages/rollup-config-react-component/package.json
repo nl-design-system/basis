@@ -1,6 +1,6 @@
 {
   "name": "@nl-design-system/rollup-config-react-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rollup configuration for React components",
   "license": "EUPL-1.2",
   "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/rollup-config-react-component#readme",
