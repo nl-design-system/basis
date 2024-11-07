@@ -1,5 +1,11 @@
 # @nl-design-system/rollup-config-react-component
 
+## 1.0.3
+
+### Patch Changes
+
+- c584e42: This version contains no changes, only devDependencies were updated
+
 ## 1.0.2
 
 ### Patch Changes
