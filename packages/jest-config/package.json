@@ -1,0 +1,32 @@
+{
+  "name": "@nl-design-system/jest-config",
+  "version": "1.0.0",
+  "description": "A sharable Jest configuration for NL Design System TypeScript projects",
+  "license": "EUPL-1.2",
+  "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/jest-config#readme",
+  "type": "module",
+  "main": "./jest.config.mjs",
+  "exports": {
+    ".": "./jest.config.mjs"
+  },
+  "files": [
+    "./jest.config.mjs"
+  ],
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/basis",
+    "directory": "packages/eslint-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "29.7.0"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  },
+  "peerDependencies": {
+    "jest": "^29"
+  }
+}
