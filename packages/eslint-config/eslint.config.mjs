@@ -68,15 +68,9 @@ export default tseslint.config(
     language: 'json/json',
     ...json.configs.recommended,
   },
-  //{
-  //files: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
-  //rules: {
-  //...nlDesignSystemJS.rules,
-  //},
-  //},
   {
-    // This section applies to all files
     name: 'nl-design-system/all',
+    files: ['**/*.js', '**/*.cjs', '**/*.cjs', '**/*.ts', '**/*.jsx', '**/*.tsx'],
     rules: {
       'array-callback-return': ['error', { checkForEach: false }],
       'block-scoped-var': 'error',
