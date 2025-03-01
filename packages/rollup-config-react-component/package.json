@@ -21,7 +21,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/core": "7.26.8",
+    "@babel/core": "7.26.9",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-node-resolve": "16.0.0",
     "@rollup/plugin-typescript": "12.1.2",
@@ -30,7 +30,7 @@
     "rollup-plugin-postcss": "4.0.2"
   },
   "devDependencies": {
-    "rollup": "4.34.6"
+    "rollup": "4.34.9"
   },
   "peerDependencies": {
     "rollup": "^4"
