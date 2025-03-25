@@ -8,7 +8,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  globalIgnores(['**/dist/', '**/build/', '**/coverage/']),
+  globalIgnores(['**/dist/', '**/build/', '**/coverage/', '**/tmp/']),
   {
     name: 'nl-design-system/plugins-settings',
     plugins: { perfectionist, react },
