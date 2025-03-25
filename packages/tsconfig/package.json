@@ -16,7 +16,8 @@
     "directory": "packages/tsconfig"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "devDependencies": {
     "typescript": "5.8.2"
