@@ -3,14 +3,12 @@ import json from '@eslint/json';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import perfectionist from 'eslint-plugin-perfectionist';
 import react from 'eslint-plugin-react';
+import { globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  {
-    name: 'nl-design-system/global-ignores',
-    ignores: ['**/dist/', '**/build/', '**/coverage/'],
-  },
+  globalIgnores(['**/dist/', '**/build/', '**/coverage/']),
   {
     name: 'nl-design-system/plugins-settings',
     plugins: { perfectionist, react },
