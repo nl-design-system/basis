@@ -1,5 +1,11 @@
 # @nl-design-system/tsconfig
 
+## 1.0.2
+
+### Patch Changes
+
+- a0d015a: Bump dependency versions
+
 ## 1.0.1
 
 ### Patch Changes

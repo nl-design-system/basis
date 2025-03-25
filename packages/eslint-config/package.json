@@ -1,6 +1,6 @@
 {
   "name": "@nl-design-system/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An ESLint configuration for NL Design System TypeScript projects",
   "license": "EUPL-1.2",
   "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/eslint-config#readme",
