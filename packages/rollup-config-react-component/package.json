@@ -18,7 +18,8 @@
     "directory": "packages/rollup-config-react-component"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "dependencies": {
     "@babel/core": "7.26.10",
