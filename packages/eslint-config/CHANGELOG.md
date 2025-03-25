@@ -1,5 +1,19 @@
 # @nl-design-system/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- 76440f9: [breaking] Use ESLint's new `globalIgnores` helper, this requires the version of ESLint to be at least 9.22.0 as well.
+
+### Minor Changes
+
+- 6783875: Ignore `**/tmp/` globally
+
+### Patch Changes
+
+- a0d015a: Bump dependency versions
+
 ## 1.0.0
 
 ### Major Changes
