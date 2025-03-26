@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.0.1
+
+### Patch Changes
+
+- 382bdd8: Add provenance
+
 ## 2.0.0
 
 ### Major Changes

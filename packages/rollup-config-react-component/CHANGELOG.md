@@ -1,5 +1,11 @@
 # @nl-design-system/rollup-config-react-component
 
+## 1.0.5
+
+### Patch Changes
+
+- 382bdd8: Add provenance
+
 ## 1.0.4
 
 ### Patch Changes
