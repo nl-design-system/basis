@@ -1,5 +1,11 @@
 # @nl-design-system/tsconfig
 
+## 1.0.3
+
+### Patch Changes
+
+- 382bdd8: Add provenance
+
 ## 1.0.2
 
 ### Patch Changes
