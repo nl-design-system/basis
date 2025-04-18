@@ -1,0 +1,45 @@
+import { defineConfig } from 'eslint/config';
+
+export default defineConfig([
+  {
+    rules: {
+      'array-callback-return': [
+        'error',
+        {
+          checkForEach: false,
+        },
+      ],
+      'block-scoped-var': 'error',
+      'consistent-return': 'error',
+      eqeqeq: 'error',
+      'no-alert': 'error',
+      'no-caller': 'error',
+      'no-constructor-return': 'error',
+      'no-eval': 'error',
+      'no-implicit-globals': 'error',
+      'no-implied-eval': 'error',
+      'no-inner-declarations': 'error',
+      'no-invalid-this': 'error',
+      'no-lone-blocks': 'error',
+      'no-loop-func': 'error',
+      'no-multi-str': 'error',
+      'no-new-func': 'error',
+      'no-new-wrappers': 'error',
+      'no-octal-escape': 'error',
+      'no-param-reassign': 'error',
+      'no-return-assign': 'error',
+      'no-self-compare': 'error',
+      'no-sequences': 'error',
+      'no-throw-literal': 'error',
+      'no-unmodified-loop-condition': 'error',
+      'no-unused-expressions': 'error',
+      'no-useless-call': 'error',
+      'no-useless-concat': 'error',
+      'no-useless-return': 'error',
+      'no-void': 'error',
+      'prefer-regex-literals': 'error',
+      radix: 'error',
+      yoda: 'error',
+    },
+  },
+]);
