@@ -1,5 +1,12 @@
 # @nl-design-system/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- 0ff2f87: Make the NL Design System specific rules that are not part of ESLint's recommended rules available as a separate export
+  as part of a refactor where the whole of `@nl-design-system/eslint-config` becomes more modular and reusable.
+
 ## 2.0.1
 
 ### Patch Changes
