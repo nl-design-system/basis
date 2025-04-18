@@ -7,10 +7,12 @@
   "type": "module",
   "main": "./eslint.config.mjs",
   "exports": {
-    ".": "./eslint.config.mjs"
+    ".": "./eslint.config.mjs",
+    "./configs/*.mjs": "./configs/*.mjs"
   },
   "files": [
-    "./eslint.config.mjs"
+    "./eslint.config.mjs",
+    "./configs/*.mjs"
   ],
   "repository": {
     "type": "git+ssh",

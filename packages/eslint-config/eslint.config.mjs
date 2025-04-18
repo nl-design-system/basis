@@ -1,6 +1,7 @@
 import js from '@eslint/js';
 import json from '@eslint/json';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import nlDesignSystemConfig from './configs/nl-design-system.config.mjs';
 import perfectionist from 'eslint-plugin-perfectionist';
 import react from 'eslint-plugin-react';
 import { globalIgnores } from 'eslint/config';
@@ -68,58 +69,8 @@ export default tseslint.config(
   },
   {
     name: 'nl-design-system/all',
-    files: ['**/*.js', '**/*.cjs', '**/*.cjs', '**/*.ts', '**/*.jsx', '**/*.tsx'],
-    rules: {
-      'array-callback-return': ['error', { checkForEach: false }],
-      'block-scoped-var': 'error',
-      'consistent-return': 'error',
-      eqeqeq: 'error',
-      'no-alert': 'error',
-      'no-caller': 'error',
-      'no-constructor-return': 'error',
-      'no-eval': 'error',
-      'no-implicit-globals': 'error',
-      'no-implied-eval': 'error',
-      'no-inner-declarations': 'error',
-      'no-invalid-this': 'error',
-      'no-lone-blocks': 'error',
-      'no-loop-func': 'error',
-      'no-multi-str': 'error',
-      'no-new-func': 'error',
-      'no-new-wrappers': 'error',
-      'no-octal-escape': 'error',
-      'no-param-reassign': 'error',
-      'no-return-assign': 'error',
-      'no-self-compare': 'error',
-      'no-sequences': 'error',
-      'no-throw-literal': 'error',
-      'no-unmodified-loop-condition': 'error',
-      'no-unused-expressions': 'error',
-      'no-useless-call': 'error',
-      'no-useless-concat': 'error',
-      'no-useless-return': 'error',
-      'no-void': 'error',
-      'perfectionist/sort-imports': [
-        'error',
-        {
-          ignoreCase: false,
-          newlinesBetween: 'never',
-        },
-      ],
-      'perfectionist/sort-objects': [
-        'error',
-        {
-          customGroups: {
-            first: ['id', 'name'],
-            last: ['overrides'],
-          },
-          groups: ['first', 'unknown', 'last'],
-        },
-      ],
-      'prefer-regex-literals': 'error',
-      radix: 'error',
-      yoda: 'error',
-    },
+    files: ['**/*.{js,cjs,mjs,jsx,ts,tsx}'],
+    extends: [nlDesignSystemConfig],
   },
   {
     name: 'eslint-config-prettier',
