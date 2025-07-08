@@ -1,2 +1,12 @@
 packages:
   - packages/*
+
+autoInstallPeers: false
+
+engineStrict: true
+
+saveExact: true
+
+savePrefix: ""
+
+strictPeerDependencies: false
