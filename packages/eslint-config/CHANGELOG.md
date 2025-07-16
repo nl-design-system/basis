@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.1.1
+
+### Patch Changes
+
+- fa7f586: This was a version bump for dependencies only, there were no code changes
+
 ## 2.1.0
 
 ### Minor Changes
