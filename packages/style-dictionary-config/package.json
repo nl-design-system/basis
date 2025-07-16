@@ -1,0 +1,38 @@
+{
+  "name": "@nl-design-system/style-dictionary-config",
+  "version": "0.0.0",
+  "description": "Shareable config and utilties for Style Dictionary",
+  "license": "EUPL-1.2",
+  "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/style-dictionary-config#readme",
+  "type": "module",
+  "exports": {
+    "./util/*": {
+      "types": "./dist/util/*.d.ts",
+      "import": "./dist/util/*.js"
+    }
+  },
+  "files": [
+    "./dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nl-design-system/basis.git",
+    "directory": "packages/style-dictionary-config"
+  },
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "clean": "rimraf ./dist/",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "style-dictionary": "5.0.1",
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+    "style-dictionary": "^5"
+  }
+}
