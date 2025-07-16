@@ -4,4 +4,4 @@
 '@nl-design-system/tsconfig': patch
 ---
 
-This was a version bump for depencies only, there were no code changes
+This was a version bump for dependencies only, there were no code changes
