@@ -1,5 +1,11 @@
 # @nl-design-system/tsconfig
 
+## 1.0.4
+
+### Patch Changes
+
+- fa7f586: This was a version bump for dependencies only, there were no code changes
+
 ## 1.0.3
 
 ### Patch Changes
