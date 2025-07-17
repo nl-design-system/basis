@@ -5,6 +5,10 @@ autoInstallPeers: false
 
 engineStrict: true
 
+onlyBuiltDependencies:
+  - "@bundled-es-modules/glob"
+  - style-dictionary
+
 saveExact: true
 
 savePrefix: ""
