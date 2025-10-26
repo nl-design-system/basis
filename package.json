@@ -19,24 +19,24 @@
     "pnpm": "^10"
   },
   "devDependencies": {
-    "@changesets/cli": "2.29.5",
+    "@changesets/cli": "2.29.7",
     "@nl-design-system/eslint-config": "workspace:*",
     "@nl-design-system/tsconfig": "workspace:*",
-    "@types/node": "22.16.4",
-    "@typescript-eslint/eslint-plugin": "8.37.0",
-    "@typescript-eslint/parser": "8.37.0",
-    "eslint": "9.31.0",
+    "@types/node": "22.18.12",
+    "@typescript-eslint/eslint-plugin": "8.46.2",
+    "@typescript-eslint/parser": "8.46.2",
+    "eslint": "9.38.0",
     "husky": "9.1.7",
-    "lint-staged": "16.1.2",
+    "lint-staged": "16.2.6",
     "markdownlint-cli": "0.45.0",
-    "npm-check-updates": "19.0.0",
+    "npm-check-updates": "19.1.1",
     "npm-package-json-lint": "9.0.0",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
-    "stylelint": "16.21.1",
+    "stylelint": "16.25.0",
     "stylelint-config-standard-scss": "15.0.1",
     "stylelint-order": "7.0.0",
-    "typescript": "5.8.3"
+    "typescript": "5.9.3"
   },
   "scripts": {
     "build": "pnpm --recursive run build",
