@@ -1,6 +1,6 @@
 {
   "name": "@nl-design-system/tsconfig",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "EUPL-1.2",
   "description": "tsconfig base for NL Design System repostories",
   "homepage": "https://github.com/nl-design-system/basis/blob/main/packages/tsconfig#readme",
