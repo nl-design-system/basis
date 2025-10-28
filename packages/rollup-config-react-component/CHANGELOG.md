@@ -1,5 +1,11 @@
 # @nl-design-system/rollup-config-react-component
 
+## 1.0.7
+
+### Patch Changes
+
+- 7f41ce5: This was a version bump for dependencies only, there were no code changes
+
 ## 1.0.6
 
 ### Patch Changes
