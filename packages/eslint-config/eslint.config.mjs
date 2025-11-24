@@ -28,6 +28,17 @@ export default tseslint.config(
     name: 'typescript-eslint/configs/strict',
     extends: [...tseslint.configs.strict],
     files: ['**/*.ts', '**/*.mts', '**/*.tsx'],
+    rules: {
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+        },
+      ],
+    },
   },
   {
     name: 'eslint-plugin-perfectionist/recommended-natural',
