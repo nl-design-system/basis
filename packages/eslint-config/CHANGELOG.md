@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.2.0
+
+### Minor Changes
+
+- a8b4e25: De rule `@typescript-eslint/no-unused-vars`, met een ignore patterns `^_`, toegevoegd
+
 ## 2.1.2
 
 ### Patch Changes
