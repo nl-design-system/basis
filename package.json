@@ -22,7 +22,7 @@
     "@changesets/cli": "2.29.7",
     "@nl-design-system/eslint-config": "workspace:*",
     "@nl-design-system/tsconfig": "workspace:*",
-    "@types/node": "22.18.13",
+    "@types/node": "24.10.4",
     "@typescript-eslint/eslint-plugin": "8.46.2",
     "@typescript-eslint/parser": "8.46.2",
     "eslint": "9.39.0",
