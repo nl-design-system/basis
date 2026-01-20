@@ -39,8 +39,8 @@
     "typescript": "5.9.3"
   },
   "scripts": {
-    "build": "pnpm --recursive run build",
-    "clean": "pnpm --recursive run clean",
+    "build": "pnpm --recursive --if-present run build",
+    "clean": "pnpm --recursive --if-present run clean",
     "lint": "pnpm run --sequential '/^lint:.+$/'",
     "lint:css": "stylelint --allow-empty-input '**/*.{css,scss}'",
     "lint:js": "eslint",
@@ -57,7 +57,7 @@
     "changeset:empty": "changeset --empty",
     "changeset:publish": "changeset publish",
     "changeset:status": "changeset status --since origin/main",
-    "test": "pnpm run --recursive test",
+    "test": "pnpm run --recursive --if-present test",
     "test-update": "pnpm run --sequential '/^test-update:.+$/'",
     "test-update:clean": "pnpm run clean",
     "test-update:build": "pnpm run build",
