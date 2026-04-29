@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.2.1
+
+### Patch Changes
+
+- 9887374: chore: add eslint v10 to eslint-config peerDependencies'
+
 ## 2.2.0
 
 ### Minor Changes
