@@ -34,3 +34,4 @@ saveExact: true
 savePrefix: ''
 
 strictPeerDependencies: false
+provenance: true
