@@ -87,4 +87,18 @@ export default tseslint.config(
     name: 'eslint-config-prettier',
     ...eslintConfigPrettier,
   },
+  {
+    name: 'nl-design-system/test-files-quotes',
+    files: ['**/*.test.{js,ts,jsx,tsx}', '**/*.spec.{js,ts,jsx,tsx}'],
+    rules: {
+      quotes: [
+        'error',
+        'single',
+        {
+          allowTemplateLiterals: false,
+          avoidEscape: true,
+        },
+      ],
+    },
+  },
 );
