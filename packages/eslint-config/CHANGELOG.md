@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.4.0
+
+### Minor Changes
+
+- 3fd8dd3: Add eslint-plugin-sonarjs, eslint-plugin-unicorn, eslint-plugin-regexp, and @stylistic/eslint-plugin recommended rules
+
 ## 2.3.0
 
 ### Minor Changes
