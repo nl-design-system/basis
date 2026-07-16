@@ -1,5 +1,15 @@
 # @nl-design-system/eslint-config
 
+## 2.3.0
+
+### Minor Changes
+
+- 60db69b: Enforce single quotes in test files (_.test._, _.spec._)
+
+### Patch Changes
+
+- 9887374: chore: add eslint v10 to eslint-config peerDependencies'
+
 ## 2.2.0
 
 ### Minor Changes
