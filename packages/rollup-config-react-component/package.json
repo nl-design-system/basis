@@ -22,7 +22,7 @@
     "provenance": true
   },
   "dependencies": {
-    "@babel/core": "7.28.6",
+    "@babel/core": "8.0.1",
     "@rollup/plugin-babel": "6.1.0",
     "@rollup/plugin-node-resolve": "16.0.3",
     "@rollup/plugin-typescript": "12.3.0",
