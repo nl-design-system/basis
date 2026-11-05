@@ -1,5 +1,11 @@
 # @nl-design-system/eslint-config
 
+## 2.5.0
+
+### Minor Changes
+
+- e11adfd: Enable `@typescript-eslint/consistent-type-imports` to enforce separate `import type` statements for type-only imports (auto-fixable with `eslint --fix`)
+
 ## 2.4.0
 
 ### Minor Changes
